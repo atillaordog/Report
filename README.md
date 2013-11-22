@@ -9,6 +9,7 @@ In this case everything has its place, getting data in the getter, processing it
 
 How to use example:
 
+```
 include('Reports/autoload.php');
 
 class TestGetter extends Report\Getter
@@ -58,3 +59,5 @@ $report = new Report(
 );
 
 $report->generate();
+```
+
